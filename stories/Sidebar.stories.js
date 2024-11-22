@@ -5,12 +5,12 @@ import CodeIcon from "@mui/icons-material/Code";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
-// import palette from "./palette";
-// import typography from "./typography";
+import palette from "@/styles/palette";
+import typography from "@/styles/typography";
 
 const theme = createTheme({
-  // palette,
-  // typography,
+  palette,
+  typography,
 });
 
 export default {
